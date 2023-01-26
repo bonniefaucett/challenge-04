@@ -1,0 +1,47 @@
+A for loop repeats until a specified condition evaluates to _______.
+    a: "true" --> correct
+    b: "false"
+    c: "truthy"
+    d: "falsy"
+
+JavaScript's String type is used to represent _______.
+    a: "an expression"
+    b: "textual data" --> correct
+    c: "an object"
+    d: "an array"
+ 
+ When should you include a README file in your repository?
+    a: "when you feel like it"
+    b: "when your boss asks you to"
+    c: "never"
+    d: "always" --> correct
+
+What does CSS stand for?
+    a: "Cascading Style Sheets" --> correct
+    b: "Certified Security Solutions"
+    c: "Communications Support System"
+    d: "Contact Start Stop"
+
+Loops offer a quick and easy way to do something _______.
+    a: "at the top of every hour"
+    b: "every minute"
+    c: "repeatedly" --> correct
+    d: "when I want it to"
+
+Which of the following is not a primitive data type in JavaScript?"
+    a: "object" --> correct
+    b: "string"
+    c: "symbol"
+    d: "boolean"
+
+NaN stands for _______.
+    a: "not a chance"
+    b: "not a nanosecond"
+    c: "not at noon"
+    d: "not a number" --> correct
+
+What is GitHub?
+    a: "a social media site",
+    b: "a code hosting platform for version control and collaboration" --> correct
+    c: "a streaming service"
+    d: "a ghost town"
