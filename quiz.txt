@@ -28,7 +28,7 @@ Loops offer a quick and easy way to do something _______.
     c: "repeatedly" --> correct
     d: "when I want it to"
 
-Which of the following is not a primitive data type in JavaScript?"
+Which of the following is not a primitive data type in JavaScript?
     a: "object" --> correct
     b: "string"
     c: "symbol"
