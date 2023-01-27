@@ -41,7 +41,13 @@ NaN stands for _______.
     d: "not a number" --> correct
 
 What is GitHub?
-    a: "a social media site",
+    a: "a social media site"
     b: "a code hosting platform for version control and collaboration" --> correct
     c: "a streaming service"
     d: "a ghost town"
+
+Which of the following cannot be targeted by JavaScript?
+    a: "the render tree"
+    b: "the DevTools element inspector"
+    c: "CSS pseudo-elements" --> correct
+    d: "your hard drive"

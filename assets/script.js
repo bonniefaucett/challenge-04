@@ -109,4 +109,12 @@ var questionArray = [
         option4: "a ghost town",
         answer: "2"
     },
+    {
+        text: "Which of the following cannot be targeted by JavaScript?",
+        option1: "the render tree",
+        option2: "the DevTools element inspector",
+        option3: "CSS pseudo-elements", // Correct answer
+        option4: "your hard drive",
+        answer: "3"
+    },
 ];
