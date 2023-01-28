@@ -2,7 +2,7 @@
 var currentQuestion = 0;
 
 // Establish the quiz countdown timer, which then comes
-var scoreTimer = 80;
+var scoreTimer =90;
 
 // Quiz countdown.
 var timeInterval = 0;

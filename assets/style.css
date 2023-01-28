@@ -2,20 +2,18 @@
     box-sizing: border-box;
   }
 
-/*styling for the header and header elements */
   #header-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 25px;
     align-items: center;
+    padding: 40px;
 }
 header a {
-    text-decoration: none;
     color: #660059;
+    font-weight: bold;
     font-size: 20px;
     display: inline;
-    font-weight: bold;
 }
 header p {
     display: inline;
@@ -29,20 +27,17 @@ main {
     justify-content: center;
 }
 
-/* styling for the question wraper and elements that apper in the 
-question wrapper */
 .question-container {
-    width: 50%;
-}
-
-.question-container 3 {
+    width: 45%;
     font-size: 36px;
     text-align: center;
     min-height: 100px;
 }
+
 .question-container p {
     text-align: center;
-    font-size: 20px;
+    font-size: 17px;
+    padding-bottom: 27px;
 }
 
 #startBtn-container {
@@ -50,7 +45,6 @@ question wrapper */
     justify-content: center;
 }
 
-/* styling for the button class */
 .btn {
     outline: none;
     border: none;
@@ -68,7 +62,6 @@ question wrapper */
     background: #FF1493;
 }
 
-/* styling for the ordered list / answer choices */
 #choice-ol {
     padding: 0;
     display: flex;
@@ -92,13 +85,11 @@ question wrapper */
     background: #FF1493;
 }
 
-/* styling for the correct / wrong feedback */
 #feedback-message {
     font-size: 32px;
     color: gray;
 }
 
-/* styling for the "enter initials" form */
 #initials-form-wrapper {
     height: 100px;
     display: flex;
@@ -123,7 +114,6 @@ question wrapper */
     font-size: 20px;
 }
 
-/* styling for the high scores page */
 #scores-title {
     font-size: 48px;
     text-align: center;
@@ -154,7 +144,6 @@ question wrapper */
     padding: 10px 10px;
 }
 
-/* styling for the buttons on the high scores page */
 #button-wrapper {
     display: flex;
     justify-content: center;
