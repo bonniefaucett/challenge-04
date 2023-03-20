@@ -1,152 +1,159 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-  #header-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    padding: 40px;
+#header-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 25px;
+  align-items: center;
 }
+
 header a {
-    color: #660059;
-    font-weight: bold;
-    font-size: 20px;
-    display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: navy;
+  font-size: 20px;
+  display: inline;
+  font-weight: bold;
 }
+
 header p {
-    display: inline;
-    font-size: 20px;
-    font-weight: bold;
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.question-container {
-    width: 45%;
-    font-size: 36px;
-    text-align: center;
-    min-height: 100px;
+.question-wrap {
+  width: 50%;
 }
 
-.question-container p {
-    text-align: center;
-    font-size: 17px;
-    padding-bottom: 27px;
+.question-wrap h3 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  text-align: center;
+  min-height: 100px;
+}
+.question-wrap p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
 
-#startBtn-container {
-    display: flex;
-    justify-content: center;
+#startBtn-wrap {
+  display: flex;
+  justify-content: center;
 }
 
 .btn {
-    outline: none;
-    border: none;
-    font-size: 20px;
-    padding: 10px 30px;
-    background: rgb(83, 21, 125);
-    color: white;
-    border-radius: 12px;
-    display: block;
-    margin: 10px 5px;
-    width: fit-content;
+  outline: none;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 10px 30px;
+  background: blue;
+  color: white;
+  border-radius: 5px;
+  display: block;
+  margin: 10px 5px;
+  width: fit-content;
 }
 
 .btn:hover {
-    background: #FF1493;
+  background: greenyellow;
+  color: #3f3f3f;
 }
 
-#choice-ol {
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    height: 300px;
-
+#option-ol {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
 }
 
-.choice {
-    font-size: 20px;
-    padding: 10px 30px;
-    background: #660059;
-    color: white;
-    border-radius: 12px;
-    display: block;
-    margin: 7px 0;
-    /*width: 100%;*/
+.option {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 10px 30px;
+  background: blue;
+  color: white;
+  border-radius: 5px;
+  display: block;
+  margin: 7px 0;
 }
 
-.choice:hover {
-    background: #FF1493;
+.option:hover {
+  background: greenyellow;
+  color: #3f3f3f;
 }
 
 #feedback-message {
-    font-size: 32px;
-    color: gray;
-}
-
-#initials-form-wrapper {
-    height: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  color: fuchsia;
 }
 
 #initials-form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 #initials-label {
-    font-size: 20px;
-    font-weight: bold;
-    padding: 0 15px 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 15px 0 0;
 }
 
 #initials {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 #scores-title {
-    font-size: 48px;
-    text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  text-align: center;
 }
 
-#score-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#score-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-#empty-scores-msg {
-    font-size: 32px;
-
+#empty-score-msg {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
 }
 
 #score-ol {
-    padding: 0;
-    width: 50%;
-    background: lightgray;
-    list-style-position: inside;
+  padding: 0;
+  width: 50%;
+  background: lightgray;
+  list-style-position: inside;
 }
 
 .score-li {
-    font-size: 20px;
-    background: lightgray;
-    padding: 10px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background: lightgray;
+  padding: 10px 10px;
 }
 
-#button-wrapper {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    
+#button-wrap {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
